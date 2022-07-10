@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+#menu{
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+#logo{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+#left-menu li,#right-menu li{
+    margin-right: 20px;
+}
+#left-menu li a,#right-menu li a{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.carousel-caption{
+    position: absolute;
+    text-align: left;
+    top: 16%;
+    left: 55%;
+    font-size: 2.5vw;
+    width: 500px;
+    height: 200px;
+}
+.ctrl{
+    z-index: 1000;
+    font-size: 3rem;
+}
+.new-item{
+    position:absolute;
+    top: 5px;
+    left: 22px;
+    z-index: 4;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+}
+#explore hr{
+    background-color: #222;
+    height: 1px;
+}
+.button{
+    letter-spacing: 2px;
+}
+#shop shop_container{
+    position: relative;
+}
+#shop .shop_text{
+    position: absolute;
+    top:70%;
+    background-color: white;
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+}

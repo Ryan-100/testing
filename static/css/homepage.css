@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+.add_button{
+    z-index: 5;
+    position: fixed;
+    bottom:30px;
+    right:1rem;
+    text-align:center;
+    width:70px;
+    height:70px;
+}
+.add_button a{
+    font-size:34px;
+}
+.container a{
+    text-decoration:none;
+}
+.home_button{
+    border-radius:60px;
+}
+
+.image-container{
+    position:relative;
+    margin:20px 0;
+
+}
+.img-fluid{
+    width:100%;
+    object-fit:cover;
+    border-radius:7px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.down-btn{
+    display:inline-block;
+    position:absolute;
+    z-index: 10;
+    right:2%;
+    top:3%;
+}
+.down-btn svg{
+    color:white;
+}
+.card{
+    background:none;
+}
+.h{
+    transition:background-color transform 5s ease-in-out;
+}
+.h:hover img{
+   opacity: 0.4;
+   
+}
+
+.h:hover {
+    background-color: black;
+    transform: scale(1.03);
+    border-radius:7px;
+
+}
+.down-btn{
+    display: none;
+}
+
+.h:hover +.down-btn , 
+.down-btn:hover {
+    background-color: rgb(233, 229, 229);
+    padding: 10px;
+    border-radius: 7px;
+    display: block;
+    font-weight: 750;
+
+}
+
+.down-btn:active{
+    background-color: black;
+   
+}
+
+
+
+
+

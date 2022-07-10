@@ -1,0 +1,14 @@
+{% extends 'photos/base.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>Login to your account!</h1>
+<br/>
+<form method="POST" class='form-group'>
+{% csrf_token %}
+{{form|crispy}}
+<p>Don't have an account? <a href="/register">Create one.</a></p>
+<button type="submit" class='btn btn-dark'>Login</button>
+</form>
+
+{% endblock content %}
